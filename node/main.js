@@ -34,19 +34,46 @@ console.log(numbers1)
 
 
 console.log('Задача 4:')
-const words=[4,6,7,8,12]
-const a='Andy'
-const b='pencil'
-const c='sparrow'
-const d='calculus'
-const e='universities'
-const words1=(x)=>{
-  if (x[i]===a.length){return a}
-  else if (x[i]===b.length){return b}
-  else if (x[i]===c.length){return c}
-  else if (x[i]===d.length){return d}
-  else if (x[i]===e.length){return e}
-  console.log(x)
+const words=[4,6,7,8,12,2,10]
+const z=words.length
+for (let i=0; i<z; i++){
+  const words1=words[i]
+  switch (words1){
+    case 2:
+      text='no'
+      break
+    case 3:
+      text='yes'
+      break
+    case 4:
+      text='bird'
+      break
+    case 5:
+      text='plate'
+      break
+    case 6:
+      text='pencil'
+      break
+    case 7:
+      text='sparrow'
+      break
+    case 8:
+      text='calculus'
+      break
+    case 9:
+      text='professor'
+      break
+    case 10:
+      text='university'
+      break
+    case 11:
+      text='mathematics'
+      break
+    case 12:
+      text='universities'
+      break
+  }
+  console.log(text)
 }
 
 
