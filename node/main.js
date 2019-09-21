@@ -114,4 +114,4 @@ const n=5
 for (h=0; h<n; h++){
   console.log(Name)
 }
-console.log("It's Working")
+console.log("На проверку")
